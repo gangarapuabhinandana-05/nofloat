@@ -1,0 +1,25 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .box{
+            width:500px;
+            height:500px;
+            margin:100px;
+            color: blueviolet(255,255,,255);
+            text-align:top;
+            line-height:300px;
+        }
+        .left{
+            background-color:tomato;
+        }
+        .right{
+            background-color: teal;
+        }
+        </style>
+</head>
+<body>
+    <div class="box left">Left</div>
+    <div class="box right">Right</div>
+</body>
+</html>
